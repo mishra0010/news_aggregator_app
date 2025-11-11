@@ -2,8 +2,10 @@ pipeline {
     agent any
 
     environment {
-    NEWS_API_KEY = '82edbbe587394d4fa0fe4f06a3c0ecc2'
-}
+
+        NEWS_API_KEY = '82edbbe587394d4fa0fe4f06a3c0ecc2' // optional
+    }
+>>>>>>> dea2457 (Fix: use direct NEWS_API_KEY instead of Jenkins credentials)
 
     stages {
         stage('Checkout Code') {
