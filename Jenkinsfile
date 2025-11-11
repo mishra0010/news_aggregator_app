@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        NEWS_API_KEY = credentials('NEWS_API_KEY') // optional
-    }
+    NEWS_API_KEY = '82edbbe587394d4fa0fe4f06a3c0ecc2'
+}
 
     stages {
         stage('Checkout Code') {
